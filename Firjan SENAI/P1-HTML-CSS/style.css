@@ -20,23 +20,25 @@ h2 {
 header {
     background-color: cornflowerblue; /* Cor de fundo */
     border: 2px solid blue; /* Borda azul de 2px */
-    transition: border-radius 0.3s; /* Transição suave para o arredondamento das bordas */
+    transition: border-radius 0.8s; /* Transição suave para o arredondamento das bordas */
     text-align: center; /* Centraliza o texto dentro do header */
 }
 
 /* Adiciona arredondamento suave às bordas do <header> quando o mouse está sobre ele */
 header:hover {
     border-radius: 20px; /* Define o raio do arredondamento das bordas */
+    transition: border-radius 0.8s;
 }
 
 /* Estiliza todos os elementos <h1> a <h6> dentro do <header> */
 header h1, header h2, header h3, header h4, header h5, header h6 {
-    transition: transform 0.2s; /* Adiciona uma transição suave para a transformação */
+    transition: transform 0.8s; /* Adiciona uma transição suave para a transformação */
 }
 
 /* Aumenta o tamanho do texto quando o mouse está sobre qualquer <h1> a <h6> dentro do <header> */
 header h1:hover, header h2:hover, header h3:hover, header h4:hover, header h5:hover, header h6:hover {
     transform: scale(2.0); /* Aumenta o tamanho do texto para o dobro do tamanho original */
+    transition: transform 0.8s;
 }
 
 /* Estilos para a barra de navegação */
@@ -65,6 +67,26 @@ li a {
     font-weight: bold; /* Texto em negrito */
     color: aliceblue; /* Cor do texto (azul claro) */
     text-decoration: none; /* Remover sublinhado dos links */
+    transition: all 0.8s;
+}
+
+li a:hover{
+    font-size: 30px;/* Tamanho da fonte */
+    color: aqua;/* Cor do texto */
+    transition: all 0.8s;
+}
+
+div{
+    background-color: #ff0000;
+    width: 100px;
+    height: 100px;
+    transition: all 0.8s;
+}
+
+div:hover{
+    background-color: #00ff00;
+    transition: all 0.8s;
+    border-radius: 50px;
 }
 
 
