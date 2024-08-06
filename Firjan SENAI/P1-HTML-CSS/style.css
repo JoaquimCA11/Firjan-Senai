@@ -39,30 +39,32 @@ header h1:hover, header h2:hover, header h3:hover, header h4:hover, header h5:ho
     transform: scale(2.0); /* Aumenta o tamanho do texto para o dobro do tamanho original */
 }
 
-nav{
-    background-color: #333333;
-    border: solid 2px #ff0000;
-    border-style: inset;
-    width: 100%;
+/* Estilos para a barra de navegação */
+nav {
+    background-color: #333333; /* Cor de fundo */
+    border: solid 2px #ff0000; /* Borda vermelha */
+    border-style: inset; /* Estilo da borda */
+    width: 100%; /* Largura total */
 }
 
-ul{
-    display: flex;
-    flex-direction: row;
-    padding: 0;
-}
-li{
-    /*margin: 0 10px;*/
-    list-style: none;
-    width: 20%;
-    text-align: center;
+ul {
+    display: flex; /* Exibir os itens em linha */
+    flex-direction: row; /* Direção dos itens (horizontal) */
+    padding: 0; /* Remover espaçamento interno */
 }
 
-li a{
-    font-size: 16px;
-    font-weight: bold;
-    color: aliceblue;
-    text-decoration: none;
+li {
+    /*margin: 0 10px;*/ /* Margem entre os itens (comentado para não aplicar) */
+    list-style: none; /* Remover marcadores de lista */
+    width: 20%; /* Largura de cada item (20% da largura total) */
+    text-align: center; /* Alinhar o texto ao centro */
+}
+
+li a {
+    font-size: 16px; /* Tamanho da fonte */
+    font-weight: bold; /* Texto em negrito */
+    color: aliceblue; /* Cor do texto (azul claro) */
+    text-decoration: none; /* Remover sublinhado dos links */
 }
 
 
